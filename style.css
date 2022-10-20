@@ -1,10 +1,40 @@
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .header {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header_logo>img{
     width: 200px;
     height: auto;
+}
+
+.header_text {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header_text>div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_picture>img {
+    width:70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
