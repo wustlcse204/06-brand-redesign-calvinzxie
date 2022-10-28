@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .header_logo>img{
@@ -27,26 +27,14 @@
 
 .header_text>div {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    font-weight: 700;
-}
-
-.main_picture {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.main_picture>img {
-    width:70%;
-    height: auto;
+    font-weight: 200;
 }
 
 .news>div {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 48px;
 }
 
