@@ -75,20 +75,23 @@
 }
 
 .footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
     height: 50px;
-    width: 100%;
+    width: 105%;
     background-color: aliceblue;
 }
 
 .footer_box {
-    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 35%;
 }
 
 .footer_text {
     font-family: sans-serif;
     font-size: 14px;
-    font-color: grey;
+    font-weight: 800;
+    color: grey;
+    margin-top: 25px;
+    margin-left: 60px;
 }
