@@ -78,6 +78,12 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.footer_box {
     width: 50%;
 }
 
