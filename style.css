@@ -47,8 +47,31 @@
     justify-content: space-around;
     width: 95%;
     height: 600px;
-    margin-bottom: auto;
+    margin-bottom: 40px;
     margin-left: 4%;
+    background-color: #ececec;
+}
+
+.main_text_box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.large_text {
+    font-family: "NoeDisplay", serif;
+    color: #015089;
+    font-size: 66px;
+    font-weight: 800;
+    max-width: 70%;
+    margin-bottom: 50px;
+}
+
+.small_text {
+    font-family: europa, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #54585A;
 }
 
 .logo {
@@ -59,6 +82,9 @@
 .logo > img {
     width: 100%;
     height: auto;
+    position: relative;
+    top: 50%;
+    margin-top: -92px;
 }
 
 
@@ -69,7 +95,7 @@
     background-color: #749EBD;
     clip-path: polygon(0 0, 0 100%, calc(100% - 144.34px) 100%, 100% 0);
     margin-left: -1px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .shape_text_area {
@@ -100,6 +126,7 @@
     height: 50px;
     width: 105%;
     background-color: aliceblue;
+    margin-bottom: -10px;
 }
 
 .footer_box {
@@ -107,6 +134,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     width: 35%;
+    
 }
 
 .footer_text {
@@ -114,6 +142,6 @@
     font-size: 14px;
     font-weight: 800;
     color: grey;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 60px;
 }
