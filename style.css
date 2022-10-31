@@ -16,6 +16,7 @@
 }
 
 .content {
+    a
     display: flex;
     flex-flow: column nowrap;
     margin-left: auto;
